@@ -1,0 +1,27 @@
+[
+    {
+        "Error": "Source is not recognized as an internal or external command, operable program or batch file",
+        "Solution": "the path to activate virtual environment \"source env/bin/activate\" is for Unix/linux and git bash, for Windows the path is \"env\\scripts\\activate\"",
+        "Source": "https://github.com/PokemonGoF/PokemonGo-Bot/issues/1415"
+    },
+    {
+        "Error": "<url> ValueError: invalid hostname",
+        "Solution": "Double quotes should be used instead of single quotes",
+        "Source": "https://github.com/scrapy/scrapy/issues/3314"
+    },
+    {
+        "Error": "ModuleNotFoundError: No module named 'Scrapy'",
+        "Solution": "Python interpreter in vs code should be set on (venv)",
+        "Source": "https://www.youtube.com/watch?v=ALizgnSFTwQ&ab_channel=TraversyMedia"
+    },
+    {
+        "Error": "Vs Code Python not finding venv environment",
+        "Solution": "Open the directory that contains your 'env' directory, not 'env' itself",
+        "Source": "https://github.com/Microsoft/vscode-python/issues/2470"
+    },
+    {
+        "Error": "UnicodeEncodeError: 'ascii' codec can't encode character",
+        "Solution": "URIs (Uniform Resource Identifier ) can't contain non-ASCII characters(Farsi,for instance) and IRI (Internationalized Resource Identifier) should be converted to a plain ASCII URI by using the \"urllib.parse.quote\" function.",
+        "Source": "https://stackoverflow.com/a/29231552/12430205"
+    }
+]
