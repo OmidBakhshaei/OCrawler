@@ -2,12 +2,22 @@ import scrapy
 
 
 class LinkCheckerSpider(scrapy.Spider):
+    """sends requests from the start_urls spider attribute and 
+    calls the spider’s method parse for each of the resulting responses.
+    """
+
     name = 'link_checker'
     start_urls = ['https://video.varzesh3.com/']
 
     def parse(self, response):
-        """parse the downloaded pages"""
+        """parse the downloaded pages.
 
+        Args:
+        response: the response to parse
+        
+        Returns:
+        An iterable of request
+        """
         # Get all the <a> tags
         a_selectors = response.xpath("//a")
         # Loop on each tag
