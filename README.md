@@ -17,7 +17,7 @@ It crawls a URL and extracts all the URLs existing on the webpage and save them 
     pip install Scrapy
     ```
 
-2. Open the code in your editor and change the _start_urls_ variable to the desired URL.
+2. Open the [Karademy_Crawler.py](/CR/CR/spiders/Karademy_Crawler.py) in your editor and change the _start_urls_ variable to the desired URL.
 
     (It is now set on https://video.varzesh3.com.)
 
