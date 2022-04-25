@@ -1,8 +1,8 @@
-# Karademy_Crawler
+# RademyCrawler
 
 
-_Karademy_Crawler_ is a web crawler built with Python using [_Scrapy_](https://scrapy.org/) package, as an assignment for Karademy's Python bootcamp.
-It crawls a URL and extracts all the URLs existing on the webpage and save them in a CSV file.
+Rademy Crawler is a web crawler built with Python using [_Scrapy_](https://scrapy.org/) package.
+It crawls a Web page and extracts all URLs contained within the page, and saves them to a CSV file.
 <p align="center">
   <img src="https://github.com/OmidBakhshaei/Scarpy-Crawler/blob/master/img/Module_Karademy_Crawler.jpg" alt="pdoc" width="600">
 </p>
@@ -17,7 +17,7 @@ It crawls a URL and extracts all the URLs existing on the webpage and save them 
     pip install Scrapy
     ```
 
-2. Open the [Karademy_Crawler.py](/CR/CR/spiders/Karademy_Crawler.py) in your editor and change the _start_urls_ variable to the desired URL.
+2. Open the [Rademy_Crawler.py](/CR/CR/spiders/Rademy_Crawler.py) in your editor and change the _start_urls_ variable to the desired URL.
 
     (It is now set on https://video.varzesh3.com.)
 
@@ -34,7 +34,7 @@ It crawls a URL and extracts all the URLs existing on the webpage and save them 
 
 ---
 
-Here is an example of the output of a crawled website ([video.varzesh3.com](https://video.varzesh3.com)) by _Karademy_Crawler_.
+Here is an example of the output of a crawled website ([video.varzesh3.com](https://video.varzesh3.com)) by RademyCrawler.
 
 
 |text                                                                                |link                                                                         |
