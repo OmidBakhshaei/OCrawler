@@ -2,7 +2,7 @@
 
 
 OCrawler is a web crawler built with Python using [_Scrapy_](https://scrapy.org/) package.
-It crawls a Web page and extracts all URLs contained within the page, and saves them to a CSV file.
+It crawls a Web page, extracts all URLs contained within the page, and saves them to a CSV file.
 
 ---
 
